@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.todo-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 40rem;
+  margin-top: 3rem;
+  min-height: 30rem;
+  background-color: rgb(28, 196, 247);
+  border-radius: 2rem;
+  box-shadow: 5px 10px 10px #81e8f8;
+}
+
+.todo-form {
+
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.todo-form input {
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: rgb(28, 196, 247);
+  border-radius: 0;
+  padding: 0.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.todo-add-btn {
+  width: 4rem;
+  transition: 200ms ease-in all;
+  border-radius: 0;
+  border: none;
+  background-color: rgb(28, 196, 247);
+}
+
+.add {
+  transition: 300ms ease-in all;
+}
+
+.add:hover {
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.add {
+  font-size: 2rem;
+}
+
+.taskdiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: rgba(37, 37, 255, 0.945);
+  margin-top: 2rem;
+  border-radius: 2rem;
+  box-shadow: 5px 10px 10px #81e8f8;
+}
+
+.todo-name {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0.2rem;
+  margin-left: 1rem;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.tick {
+  font-size: 1.5rem;
+  transition: 300ms ease-in all;
+  padding: 0.2rem;
+}
+
+.tick:hover {
+  cursor: pointer;
+  color: rgb(5, 218, 5);
+}
+
+.delete {
+  font-size: 1.3rem;
+  transition: 300ms ease-in all;
+  padding: 0.2rem;
+}
+
+.delete:hover {
+  cursor: pointer;
+  color: rgba(240, 47, 47, 0.973);
+}
+
+.complete {
+  background-color: rgba(12, 175, 12, 0.884);
+}
+
+.hide {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
